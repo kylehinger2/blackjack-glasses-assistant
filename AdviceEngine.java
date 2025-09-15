@@ -1,0 +1,1 @@
+package com.example.blackjackassistant; public class AdviceEngine { public String getAdvice(double trueCount) { if (trueCount > 2) return "Bet More"; else if (trueCount < 0) return "Bet Minimum"; else return "Flat Bet"; } }
